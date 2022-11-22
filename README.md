@@ -1,1 +1,1 @@
-# mg_diplom-netology
+# mq_diplom-netology
