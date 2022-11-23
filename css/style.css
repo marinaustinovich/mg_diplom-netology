@@ -172,7 +172,7 @@ html, body {
 
 .subtitle {
     position: relative;
-    margin: 0;
+    margin: 0 0 33px 0;
     text-align: center;
     color: #0f0d0e;
     font-size: 1rem;
@@ -187,11 +187,11 @@ html, body {
     background-color: #e1d9bd;
     position: absolute;
     top: 130%;
-    left: 39%;
+    left: 50%;
+    transform: translateX(-50%)
 }
 
 .trend {
-    min-width: 320px;
     position: relative;
     background-color: #eff6f1;
     background-repeat: no-repeat;
@@ -229,13 +229,15 @@ html, body {
     margin-right: 15px;
 
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 0.87rem;
 }
+
 .trends-link {
     color: #b59f5b;
     font-weight: 700;
     text-decoration: none;
 }
+
 .trends-name {
     margin-top: 5px;
     font-size: 1rem;
@@ -248,7 +250,6 @@ html, body {
 }
 
 .trend-garden {
-    margin-top: 33px;
     background-image: url(../images/trend1.jpg);
 }
 
@@ -424,7 +425,7 @@ html, body {
 .button {
     position: absolute;
     display: inline-block;
-    top: 34px;
+    top: 37px;
     right: 1px;
     width: 47px;
     height: 46px;
@@ -726,6 +727,7 @@ html, body {
  /*here start popup*/
 
 .popup {
+    z-index: 100;
     width: 100%;
     height: 100vh;
     padding-top: 25px;
@@ -788,9 +790,6 @@ html, body {
     margin-bottom: 8px;
     display: block;
 }
-
-
-
 
 .radioButton {
     -webkit-appearance: none;
@@ -867,7 +866,7 @@ html, body {
 .field__textarea {
     min-width: 100%;
     max-width: 100%;
-    min-height: 100px;
+    min-height: 133px;
     max-height: 150px;
     background-color:#eff6f1;
     border: none;
@@ -875,6 +874,8 @@ html, body {
     font-size: 0.8rem;
     font-family: inherit;
     color: #b8adb2;
+
+    resize:none
 }
 
 .sign-up__button {
@@ -890,7 +891,7 @@ html, body {
     font-family: inherit;
     font-size: 0.8rem;
     color: #ffffff;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.05em;
     text-transform: uppercase;
 }
 
@@ -930,15 +931,11 @@ html, body {
     transform: translate(-50%, -50%) rotate(-45deg);
 }
 
-.popup_hidden {
-    display: none;
-}
+/*.popup_hidden {*/
+/*    display: none;*/
+/*}*/
 
 @media (orientation: landscape) {
-    .subtitle::after {
-        left: 45%;
-    }
-
     .trends_content {
         display: flex;
         flex-wrap: wrap;
@@ -949,7 +946,8 @@ html, body {
     .trend {
         width: 49.5%;
         display: flex;
-        min-height: 320px;
+        min-height: 220px;
         align-items: flex-end;
+        padding-top: 0;
     }
 }

@@ -1,6 +1,171 @@
 @media (min-width: 641px) and (max-width: 1200px) {
-    .menu__button {
-        display: none;
+    html, body {
+        font-size: 25px;
     }
 
+    .header {
+        padding-top: 40px;
+        padding-bottom: 14%;
+
+        background-image: url(../images/banner-bg-tablet.jpg);
+    }
+
+    .logo-wrap {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+
+        margin-bottom: 85px;
+        padding: 0 35px;
+    }
+
+    .logo {
+        min-width: 155px;
+        padding: 0;
+    }
+
+    .menu {
+        margin-bottom: 0;
+    }
+
+    .title-wrap {
+        padding: 0 35px;
+    }
+
+    .subtitle {
+        font-size: 0.72rem;
+    }
+
+    .trends_content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    .trend {
+        width: 49.5%;
+        display: flex;
+        min-height: 250px;
+        align-items: flex-end;
+        padding-top: 0;
+    }
+
+    .trends-item {
+        font-size: 0.56rem;
+    }
+
+    .trends-list {
+        padding-left: 10%;
+    }
+
+    .trends-name {
+        font-size: 0.68rem;
+    }
+
+    .news-container__tablet {
+        display: flex;
+        padding: 10px 35px 0 35px;
+    }
+
+    .news-container {
+        padding: 0;
+    }
+
+    .news-name {
+        font-size: 0.68rem;
+    }
+
+    .news-item {
+        font-size: 0.56rem;
+    }
+
+    .news-date, .author {
+        font-size: 0.48rem;
+    }
+
+    .news-content {
+        font-size: 0.6rem;
+    }
+
+    .news:last-child {
+        border-bottom: none;
+    }
+
+    .sidebar {
+        width: 270px;
+        margin-left: 35px;
+    }
+
+    .subtitle__tablet {
+        font-size: 0.56rem;
+    }
+
+    .field {
+        font-size: 0.52rem;
+    }
+
+    .post-header {
+        margin-left: 20px;
+    }
+
+    .post-date {
+        font-size: 0.48rem;
+    }
+
+    .post-name,
+    .topic-link,
+    .product__price_old,
+    .product__button,
+    .sign-up__button {
+        font-size: 0.56rem;
+    }
+
+    .amount {
+        font-size: 0.48rem;
+    }
+
+    .products {
+        padding: 0 35px;
+    }
+
+    .products_content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        /*align-items: flex-end;*/
+        align-items: stretch;
+    }
+
+    .product {
+        width: 49%;
+    }
+
+    .product__title {
+        font-size: 0.68rem;
+    }
+
+    .product__description {
+        font-size: 0.6rem;
+    }
+
+    .product__price {
+        font-size: 0.8rem;
+    }
+
+    .popup__container {
+        width: 51%;
+    }
+
+    .popup__close:before, .popup__close:after {
+        width: 1.9em;
+    }
+
+    .sign-up__title {
+        font-size: 0.72rem;
+    }
+
+    .sign-up__label, .select, .field__textarea {
+        font-size: 0.52rem;
+    }
 }
