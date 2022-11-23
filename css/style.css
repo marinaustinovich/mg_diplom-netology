@@ -931,9 +931,9 @@ html, body {
     transform: translate(-50%, -50%) rotate(-45deg);
 }
 
-/*.popup_hidden {*/
-/*    display: none;*/
-/*}*/
+.popup_hidden {
+    display: none;
+}
 
 @media (orientation: landscape) {
     .trends_content {
