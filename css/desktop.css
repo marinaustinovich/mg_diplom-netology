@@ -1,0 +1,93 @@
+@media (min-width: 1201px) {
+    .header {
+        background-image: url(../images/banner-bg.jpg);
+        padding-bottom: 132px;
+    }
+
+    .nav-list {
+        display: block;
+    }
+
+    .menu__button {
+        display: none;
+    }
+
+    .logo-wrap {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .logo {
+        min-width: 185px;
+        padding: 0;
+    }
+
+    .title-wrap {
+        max-width: 745px;
+        margin: auto;
+    }
+
+    .title {
+        font-size: 2.8rem;
+        line-height: 1.55;
+    }
+
+    .menu {
+        margin-bottom: 0;
+    }
+
+    .container {
+        max-width: 1200px;
+    }
+
+    .logo-wrap {
+        margin-bottom: 103px;
+    }
+
+    .subtitle {
+        padding-top: 17px;
+        margin-bottom: 38px;
+        font-size: 1.25rem;
+    }
+
+    .subtitle:after {
+        width: 64px;
+        top: 119%;
+    }
+
+    .trend {
+        min-height: 320px;
+    }
+
+    .trend-name {
+        padding: 15px;
+    }
+
+    .trends-name {
+        font-size: 1.25rem;
+    }
+
+    .news-container__tablet {
+        display: flex;
+        padding: 10px 35px 0 35px;
+    }
+
+    .subtitle__tablet {
+        font-size: 0.87rem;
+    }
+
+    .news-container {
+        margin-right: 120px;
+    }
+
+    .news {
+        display: flex;
+        justify-content: space-between;
+
+         padding-bottom: 0;
+         border-bottom: none;
+        margin-bottom: 60px;
+    }
+
+}
