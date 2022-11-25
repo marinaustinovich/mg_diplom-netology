@@ -313,6 +313,7 @@ html, body {
 }
 
 .image-news img {
+    display: block;
     width: 100%;
 }
 
@@ -576,6 +577,7 @@ html, body {
 }
 
 .product__img {
+    display: block;
     width: 100%;
 }
 
