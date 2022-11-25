@@ -93,7 +93,7 @@
     }
 
     .sidebar {
-        width: 270px;
+        max-width: 270px;
         margin-left: 35px;
     }
 
@@ -125,7 +125,7 @@
         font-size: 0.48rem;
     }
 
-    .products {
+    .container__products {
         padding: 0 35px;
     }
 
@@ -133,8 +133,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        /*align-items: flex-end;*/
-        align-items: stretch;
+        align-items: flex-end;
     }
 
     .product {
@@ -151,6 +150,14 @@
 
     .product__price {
         font-size: 0.8rem;
+    }
+
+    .footer-basic {
+        min-height: 180px;
+    }
+
+    .copyright {
+        font-size: 0.48rem;
     }
 
     .popup__container {
