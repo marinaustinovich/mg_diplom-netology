@@ -87,6 +87,8 @@
     }
 
     .sidebar {
+        flex-basis: 300px;
+        flex-shrink: 0;
         margin-left: 120px;
     }
 

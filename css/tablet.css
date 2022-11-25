@@ -93,6 +93,7 @@
     }
 
     .sidebar {
+        flex-shrink: 0;
         max-width: 270px;
         margin-left: 35px;
     }
