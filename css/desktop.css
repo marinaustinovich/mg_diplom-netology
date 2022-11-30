@@ -14,7 +14,6 @@
 
     .logo-wrap {
         display: flex;
-        flex-direction: row-reverse;
         justify-content: space-between;
     }
 
@@ -165,6 +164,8 @@
     }
 
     .product {
+        display: flex;
+        flex-direction: column;
         width: 29.5%;
         /*flex: 1;*/
     }

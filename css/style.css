@@ -31,7 +31,7 @@ html, body {
 .header {
     position: relative;
     padding-top: 30px;
-    padding-bottom: 58%;
+    padding-bottom: 57%;
 
     background-color: #666666;
     background-image: url(../images/banner-mobile.jpg);
@@ -66,18 +66,20 @@ html, body {
 }
 
 .logo {
-    padding: 0 31px;
+    padding: 198px 31px 0 31px;
 }
 .menu {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    margin-bottom: 52%;
+    position: absolute;
+    top: 4px;
+    right: 15px;
 }
 
 .menu__button {
-    width: 1.1em;
-    height: 0.9em;
+    width: 1em;
+    height: 0.8em;
     border: none;
     padding: 0;
     background-color: transparent;
@@ -167,12 +169,12 @@ html, body {
     margin-top: 40px;
 }
 .trends {
-    margin-bottom: 40px;
+    margin-bottom: 38px;
 }
 
 .subtitle {
     position: relative;
-    margin: 0 0 33px 0;
+    margin: 0 0 37px 0;
     text-align: center;
     color: #0f0d0e;
     font-size: 1rem;
@@ -269,7 +271,7 @@ html, body {
     padding: 10px 15px 0 15px;
 }
 .news {
-    padding-bottom: 20px;
+    padding-bottom: 21px;
     border-bottom: 3px solid #eeeeee;
     margin-bottom: 34px;
 }
@@ -329,7 +331,7 @@ html, body {
 }
 
 .news-list {
-    padding-top: 3px;
+    padding-top: 8px;
 }
 
 .news-item {
