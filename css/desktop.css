@@ -19,7 +19,7 @@
     }
 
     .logo {
-        min-width: 185px;
+        min-width: 180px;
         padding: 0;
     }
 
@@ -50,11 +50,6 @@
         font-size: 1.25rem;
     }
 
-    .subtitle:after {
-        width: 64px;
-        top: 119%;
-    }
-
     .trend {
         min-height: 320px;
     }
@@ -79,10 +74,6 @@
     .subtitle__tablet {
         font-size: 0.87rem;
         padding-top: 0;
-    }
-
-    .subtitle__tablet:after {
-        top: 135%;
     }
 
     .sidebar {
@@ -156,18 +147,17 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        align-items: flex-end;
     }
 
     .product {
         display: flex;
         flex-direction: column;
         width: 29.5%;
-        /*flex: 1;*/
     }
 
     .product__body {
-        margin-top: -30px;
+        flex-grow: 1;
+        padding-bottom:  27px;
     }
 
     .footer-basic {

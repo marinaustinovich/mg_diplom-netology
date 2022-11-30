@@ -67,10 +67,6 @@
         padding: 10px 35px 0 35px;
     }
 
-    .news-container {
-        padding: 0;
-    }
-
     .news-name {
         font-size: 0.68rem;
     }
@@ -133,13 +129,16 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        align-items: flex-end;
     }
 
     .product {
         display: flex;
         flex-direction: column;
         width: 49%;
+    }
+
+    .product__body {
+        flex-grow: 1;
     }
 
     .product__title {
