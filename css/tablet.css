@@ -28,7 +28,7 @@
     }
 
     .title-wrap {
-        padding: 0 35px;
+        max-width: 650px;
     }
 
     .subtitle {
@@ -137,6 +137,8 @@
     }
 
     .product {
+        display: flex;
+        flex-direction: column;
         width: 49%;
     }
 
@@ -150,10 +152,6 @@
 
     .product__price {
         font-size: 0.8rem;
-    }
-
-    .footer-basic {
-        min-height: 180px;
     }
 
     .copyright {

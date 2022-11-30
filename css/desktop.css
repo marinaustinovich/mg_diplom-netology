@@ -6,6 +6,7 @@
 
     .nav-list {
         display: block;
+        padding-top: 15px;
     }
 
     .menu__button {
@@ -23,8 +24,7 @@
     }
 
     .title-wrap {
-        max-width: 745px;
-        margin: auto;
+        max-width: 715px;
     }
 
     .title {
@@ -37,7 +37,7 @@
     }
 
     .container {
-        max-width: 1200px;
+        max-width: 1170px;
     }
 
     .logo-wrap {
@@ -73,7 +73,7 @@
 
     .news-container__tablet {
         display: flex;
-        padding: 10px 0 0 0;
+        padding: 20px 0 0 0;
     }
 
     .subtitle__tablet {
@@ -86,7 +86,7 @@
     }
 
     .sidebar {
-        flex-basis: 300px;
+        flex-basis: 270px;
         flex-shrink: 0;
         margin-left: 120px;
     }
@@ -97,7 +97,7 @@
 
          padding-bottom: 0;
          border-bottom: none;
-        margin-bottom: 58px;
+         margin-bottom: 64px;
     }
 
     .news:last-child {
@@ -120,7 +120,7 @@
     }
 
     .news-content {
-        padding-top: 50px;
+        margin-top: 50px;
     }
 
     .image-post {
@@ -147,10 +147,6 @@
         margin-bottom: 50px;
     }
 
-    .topic-item {
-        padding: 0 0 26px 0;
-    }
-
     .container__products {
         margin-top: 30px;
         padding: 0 15px;
@@ -171,7 +167,7 @@
     }
 
     .product__body {
-        margin: -30px -21px 0 -23px;
+        margin-top: -30px;
     }
 
     .footer-basic {
